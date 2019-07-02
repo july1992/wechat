@@ -27,7 +27,7 @@ export default class Index extends Component {
         <head></head>
         <Food></Food>
 
-        <Text>你说啥 sss!</Text>
+
 
       </View>
     )

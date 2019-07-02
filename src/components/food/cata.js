@@ -49,11 +49,15 @@ class Cata extends Component {
 
       this.setState({
         selectCate:item
+      },() => {
+        this.props.onChangeCate && this.props.onChangeCate(this.state.selectCate)
       })
     }else if(!this.state.selectCate){
 
       this.setState({
         selectCate:item
+      },() => {
+        this.props.onChangeCate && this.props.onChangeCate(this.state.selectCate)
       })
     }
   }

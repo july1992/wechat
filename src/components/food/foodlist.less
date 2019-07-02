@@ -1,0 +1,66 @@
+.foodlist {
+  padding: 10px;
+  background-color: greenyellow;
+
+  .foodlist_item {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+
+    .foodlist_item_img {
+      width: 80px;
+      height: 80px;
+      border-radius: 4px;
+    }
+
+    .foodlist_item_info {
+      position: relative;
+      margin-left: 10px;
+      padding-right: 10px;
+      display: flex;
+      flex-direction: column;
+      background-color: green;
+      font-size: 14px;
+      justify-content: space-between;
+      height: 80px;
+
+
+      .foodlist_item_price {
+        color: red;
+        font-weight: bold;
+      }
+
+      .addcut{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+
+        background-color: red;
+        display: flex;
+        flex-direction: row;
+
+
+        .operate_img{
+          width: 28px;
+          height: 28px;
+        }
+        .food_num{
+          min-width: 26px;
+          height: 28px;
+          line-height: 28px;
+          font-size: 20px;
+          display: inline-block;
+          text-align: center;
+          vertical-align: text-bottom;
+        }
+      }
+
+
+    }
+
+
+
+
+
+  }
+}
